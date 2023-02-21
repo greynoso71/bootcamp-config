@@ -5,7 +5,6 @@ on:
     push:
         branches:
             - main
-
 jobs:
     bootstrap_cdf:
         name: Bootstrap CDF
@@ -27,7 +26,7 @@ jobs:
                       # CDF Project name
                       CDF_PROJECT: cdf-bootcamp-03-prod
                       # Azure AD tenant id
-                      IDP_TENANT: 78751fd8-8369-419b-99b1-1b88e98b29f4
+                      IDP_TENANT: 16e3985b-ebe8-4e24-9da4-933e21a9fc81
 
         environment: ${{ matrix.environment}}
         env:
